@@ -7,7 +7,7 @@ package edu.unicundi.figuras;
 
 /**
  *
- * @author rojas
+ * @author Santiago Gómez
  */
 /**
 * clase de  figura Triangulo del padre de figura 2d
