@@ -14,17 +14,18 @@ package edu.unicundi.figuras;
 */
 public class Cuadrado extends FiguraPadre {
     
-    private int lado2;
+    //private int lado;
     private String nombre;
-    private int lado;
+    private int lado2;
     /**
     * constructor  de Cuadrado con  los datos
+     * @param nombre
     * @param lado lado del cuadrado
     * @param lado2 segundo lado del cuadrado
     */
     public Cuadrado(int lado, int lado2) {       
-        this.lado = lado;
-        this.lado2 = lado2;
+        this.lado=lado;
+        this.lado2=lado2;
         if(lado==lado2){
             this.nombre = "Cuadrado";
         }else{
