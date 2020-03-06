@@ -15,6 +15,10 @@ public interface IFigura {
      * Halla el area de las figuras
      */
       public double hallarArea();
+      
+      /*
+      Halla el perimetro de las figuras
+      */
       public abstract double hallarPerimetro(); 
     
 }

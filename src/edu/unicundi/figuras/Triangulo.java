@@ -46,12 +46,12 @@ public class Triangulo extends FiguraPadre {
     */
     
     public String QueTriangulo(int lado, int lado2, int lado3){
-       if(lado== lado2 || lado2==lado3 || lado==lado3){
-           return "Isosceles";
-       }else if(lado==lado2 & lado==lado3 & lado2==lado3){
-           return "Equilatero"; 
+       if(lado== lado2 && lado2==lado3 && lado==lado3){
+           return "Equilatero";
+       }else if(lado!=lado2 && lado!=lado3 & lado2!=lado3){
+           return "Escaleno"; 
        }else{
-           return "Escaleno";
+           return "Isosceles";
        }
     }
     /**

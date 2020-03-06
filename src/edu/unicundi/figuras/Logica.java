@@ -17,7 +17,7 @@ public class Logica {
      private IFigura[] vectorGeneral ;
      private Scanner figura;
      /**
-     * Costructor solicito la cantidad de figuras y  los metodos de las figuras
+     * Metodo que indica cuántas figuras y de qué tipo
      */
      public void Datos(){
         System.out.println("cuantas figuras desea? ");
